@@ -1,0 +1,37 @@
+.downloads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    text-align: center;
+}
+
+.download-box {
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.download-box__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.download-box__button .button {
+    font-size: 1.2rem;
+    margin: 10px;
+    background: #ef4444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
